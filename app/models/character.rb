@@ -13,6 +13,6 @@ class Character < ActiveRecord::Base
     end
     def build_show(arg)
       Show.name
-      binding.pry
+      
     end
 end
