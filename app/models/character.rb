@@ -12,6 +12,6 @@ class Character < ActiveRecord::Base
       "#{x}"
     end
     def build_show(arg)
-      show.name = arg[:name]
+      Show.name = arg[:name]
     end
 end
